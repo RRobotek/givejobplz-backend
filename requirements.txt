@@ -16,14 +16,6 @@ cytoolz==0.12.3
 distro==1.9.0
 dnspython==2.6.1
 email_validator==2.1.1
-eth-account==0.11.2
-eth-hash==0.7.0
-eth-keyfile==0.8.1
-eth-keys==0.5.1
-eth-rlp==1.0.1
-eth-typing==4.2.3
-eth-utils==4.1.1
-eth_abi==5.1.0
 fastapi==0.111.0
 fastapi-cli==0.0.4
 filelock==3.16.1
@@ -52,7 +44,6 @@ packaging==24.1
 parsimonious==0.10.0
 pinatapy-vourhey==0.2.0
 protobuf==5.27.0
-psycopg2==2.9.9
 pycparser==2.22
 pycryptodome==3.20.0
 pydantic==2.7.2
@@ -66,7 +57,6 @@ pyunormalize==15.1.0
 PyYAML==6.0.1
 referencing==0.35.1
 regex==2024.5.15
-replicate==0.28.0
 requests==2.32.3
 rich==13.7.1
 rlp==4.0.1
@@ -74,7 +64,6 @@ rpds-py==0.18.1
 shellingham==1.5.4
 sniffio==1.3.1
 soupsieve==2.6
-SQLAlchemy==2.0.30
 starlette==0.37.2
 tokenizers==0.20.0
 toolz==0.12.1
@@ -86,6 +75,9 @@ urllib3==2.2.1
 uvicorn==0.30.0
 uvloop==0.19.0
 watchfiles==0.22.0
-web3==6.19.0
 websockets==12.0
 yarl==1.9.4
+
+sqlalchemy
+pydantic
+databases[sqlite]
